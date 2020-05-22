@@ -86,10 +86,11 @@ def main(argv=sys.argv):
         print("Tu archivo es :"+argv[1])
         if(input("[Y/N]: >> ").upper() == 'Y'):
             archivo=open(str(argv[1]),"r")
-            if(argv[2]=='-d'):
-                print("Funcion de Not REPET")
-                texto=archivo.read()
-                segundo(texto,"No-Repet")
+            if(len(argv) == 3):
+                if(argv[2]=='-d')
+                    print("Funcion de Not REPET :))")
+                    texto=archivo.read()
+                    segundo(texto,"No-Repet")
             else:
                 texto=archivo.read()
                 primero(texto,argv[1])
