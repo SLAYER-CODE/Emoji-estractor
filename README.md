@@ -1,5 +1,5 @@
-# Icon-estractor
-*Extrae iconos de los archivos sin repetir caracteres         |RAPIDO|<br>
+# Emoji-estractor
+*Extrae emoji de los archivos sin repetir caracteres         |RAPIDO|<br>
 *Comprobacion de cada icono mediante verificacion "\u[code]"  |LENTO|<br>
 
 <h2>Python 3.8</h2>
